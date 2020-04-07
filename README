@@ -1,0 +1,7 @@
+Rust Coding Challenges
+
+Duplicate challenge_example.rs and rename it to an appropriate name.
+
+Add the new file to main.rs imports.
+
+Test your code by running cargo test "your file name".
