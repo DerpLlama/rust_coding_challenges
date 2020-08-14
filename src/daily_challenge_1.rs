@@ -17,7 +17,7 @@ fn coding_challenge(l: Vec<i32>, k: i32) -> bool {
 	let mut output: bool = false;
 	if l.len() > 1 {
 		'outer: for i in 0..(l.len() - 1) {
-			'inner: for j in (i + 1)..l.len() {
+			for j in (i + 1)..l.len() {
 				if l[i] + l[j] == k {
 					output = true;
 					break 'outer;
